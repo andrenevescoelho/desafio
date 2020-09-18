@@ -113,8 +113,11 @@ while True:
     if cao > 20:
         print("O IP "+ip +" ja coletou "+str(cao)+" objetos no servidor")
 
+
 Saida do script:
+
 O IP XXX.XXX.XXX.XXX ja coletou 28 objetos no servidor
+
 Voce pode aumentar esse controle para um numero maior se preferir.
 
 
