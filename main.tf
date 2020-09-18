@@ -6,5 +6,5 @@ provider "aws" {
 
 resource "aws_key_pair" "my-key" {
   key_name = "my-key"
-  public_key = "${file("/Users/andrecoelho/.ssh/id_rsa.pub")}"
+  public_key = "${file("/Users/nome_usuario/.ssh/id_rsa.pub")}"
 }
