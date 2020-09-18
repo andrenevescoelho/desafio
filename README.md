@@ -78,6 +78,10 @@ no arquivo create.tf.
 
 availability_zones = ["us-east-1c", "us-east-1d", "us-east-1b", "us-east-1f", "us-east-1a", "us-east-1e"]
 
+Para fazer o teste de dispobilidade voce pode para uma instancia la na EC2 ou para o Apache em um dos servidores.
+Voce vai notar que será criada uma nova instancia em sua conta na AWS, e em poucos minutos sua aplicacao estará no ar novamente.
+
+
 [SEGURANCA]
 Para garantir ainda mais a seguranca da nossa aplicacao, temos um script Python que monitora o access.log do Apache, caso um IP tente coletar mais 20 vezes um 
 objeto em nossa aplicacao nosso script irá informar.
