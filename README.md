@@ -1,4 +1,4 @@
-# desafio
+# ESCALABILIDADE E DISPONIBILIDADE COM TERRAFORM
 
 [OBJETIVO]
 A proposta desse projeto é uma aplicacao .gif com Apache e php com garantia de disponibilidade e escalabilidade usando AWS e terraform com script Python para monitoracao
